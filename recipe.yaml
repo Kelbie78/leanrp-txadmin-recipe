@@ -1,0 +1,20 @@
+name: LeanRP Framework
+author: LeanRP
+description: |
+  LeanRP is a commercial, server-authoritative roleplay framework
+  designed for serious FiveM roleplay servers.
+
+tasks:
+  - action: copy_dir
+    src: server-data
+    dest: ./
+
+  - action: message
+    text: |
+      ✅ LeanRP installation complete.
+
+      NEXT STEPS:
+      1. Open server.cfg
+      2. Set your MySQL connection string
+      3. Ensure oxmysql is installed
+      4. Start the server

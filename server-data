@@ -1,0 +1,13 @@
+leanrp-txadmin-recipe/
+├─ recipe.yaml
+└─ server-data/
+   ├─ server.cfg
+   └─ resources/
+      └─ [leanrp]/
+         ├─ leanrp-core/
+         ├─ leanrp-migrations/
+         ├─ leanrp-hunting/
+         ├─ leanrp-police/
+         ├─ leanrp-ems/
+         ├─ leanrp-prison/
+         └─ leanrp-mdt/
